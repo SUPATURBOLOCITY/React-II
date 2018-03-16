@@ -12,9 +12,9 @@ Try to get all of the tests passing. If you don't get there, then aim for creati
 ## Project Setup
   * Run `npm i -g create-react-app` to install the React app generator globally.
   * Run `create-react-app instagram` to create your starter application with the name `instagram`.
-  * Once your React project has been created, move the provided `/tests` directory as well as the `dummy-data.js` file into the `/src` directory of your newly-generated React project.
+  * Once your React project has been created, move the provided `/tests` directory as well as the `dummy-data.js` file into the `/src` directory of your newly-generated React project. `npm i -
   * Inside your `instagram` project directory, run `npm i --save-dev enzyme sinon enzyme-adapter-react-16`, which will install additional necessary dependencies that `create-react-app` doesn't install for you off the bat.
-  * You'll also need to install the React Bootstrap library, which will come in handy for theming and styling of your project. Run `npm install --save react-bootstrap` to install it. Then, copy and paste these two links into the head of the `index.html` file in `instagram/public`:
+  * You'll also need to install the React Bootstrap library, which will come in handy for theming and styling of your project. Run `npm install --save react-bootsnpmtrap` to install it. Then, copy and paste these two links into the head of the `index.html` file in `instagram/public`:
   ```
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
